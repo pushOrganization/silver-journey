@@ -12,6 +12,6 @@ node {
         
         stage('Archive Artefact') {
             // Archive Artefact after build
-            archive 'excludes: '', includes: 'target/*.war''    
+            archive 'excludes: '', includes: 'target/*.war'    
         }
 }
